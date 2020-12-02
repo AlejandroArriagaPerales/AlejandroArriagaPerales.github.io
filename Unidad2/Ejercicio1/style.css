@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	width: 50%;
+    margin: auto;
+    background-color: gray;
+
+}
+
+.botones{
+    background-color: lime;
+    border-color: black;
+    text-transform: uppercase;
+}
+
+
+.contenido{
+    box-sizing: content-box;
+    background-color: white;
+}
+
+
+header{
+	background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	padding: 10px 40px;
+	align-items: center; /* En el eje de las Y y justify-content es para el de las X*/
+}
+
+.categoria{
+    border-style: dashed;
+    border-radius: 10px;
+    background-color: gainsboro; 
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: flex;
+    height: 20px;
+    width: 450px;
+    
+}
+
+.contenido{
+	box-sizing: content-box;
+}
+.principal{
+	background-color: #FFFFFF;
+	display: flex;
+	padding: 30px;
+}

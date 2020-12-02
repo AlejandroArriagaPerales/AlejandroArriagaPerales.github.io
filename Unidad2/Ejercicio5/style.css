@@ -1,0 +1,40 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-repeat: repeat-x;
+    background-color: lightslategray;
+}
+select{
+    font-size: 20px;
+    width: 40%;
+    background-color: lightblue;
+}
+
+table{
+    font-size: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
+    border-collapse: collapse;
+    border: white 3px solid;
+}
+
+table tr th{
+    padding: 5px;
+    border: white 3px solid;
+}
+
+.boton{
+    font-family: inherit;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    width: 40%;
+    background-color: lightseagreen;
+}
+
+.datos{
+    padding-top: 40px;
+    text-align: center;
+    text-align: center;
+}
