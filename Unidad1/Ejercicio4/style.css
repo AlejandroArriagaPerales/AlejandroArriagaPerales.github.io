@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 50%;
+	margin: auto;
+
+}
+
+.contenido{
+	box-sizing: content-box;
+}
+
+header{
+	background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	padding: 10px 40px;
+	align-items: center; /* En el eje de las Y y justify-content es para el de las X*/
+
+}
+
+header img{
+	width: 10%;
+	height: 10%;
+	margin-right: 15px;
+}
+
+header>p{
+	width: 30%;
+}
+
+header div{
+	width: 50%;
+
+}
+
+header div p{
+	font-size: 15px;
+}
+
+
+
+nav{
+	background-image: linear-gradient(to right, rgb(224, 122, 6), rgb(255, 225, 197));
+	height: 30px;
+	padding: 5px 0px;
+    
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	height: 25px;
+    margin: 5px 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	width: 40px;
+   
+
+}
+
+nav ul li a:hover{
+	background-image: linear-gradient(to left, rgb(224, 122, 6), rgb(255, 225, 197));
+}
+
+.banner{
+	width: 100%;
+	 
+}
+
+.principal{
+	background-color: #FFFFFF;
+	display: flex;
+	padding: 30px;
+}
+
+.principal main{
+	width: 60%;
+	margin-right: 25px;
+}
+
+.principal aside{
+	width: 40%
+}
+
+.principal p{
+	font-size: 15px;
+    text-align: justify;
+}
+
+h2{
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.principal section{
+	margin-bottom: 20px;
+    
+}
+
+footer{
+    background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	padding: 10px 40px;
+	align-items: center; /* En el eje de las Y y justify-content es para el de las X*/
+}
+
+footer>p{
+    width: 30%;
+}
+footer ul li{
+	
+}
+
+footer ul li a{
+	
+   
+
+}
+
+.info{
+    display: inline-block; 
+    text-align: right;
+    margin-left: 65%
+}
+
+
+.artistas{
+    border-top: 1px dashed
+}
+
+.schedule{
+    border-bottom: 1px;
+}
+
+.divisionartistas{
+    display: flex;
+}
+
+.imagenesart{
+    border-radius: 5px;
+     margin: 1px 5px;
+    width: 100px;
+}
+
+.arte img{
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	padding: 10px 40px;
+	align-items: center; /* En el eje de las Y y justify-content es para el de las X*/
+}
+
+footer p{
+	width: 32%;
+	padding: 20px;
+	
+}
+
+footer ul li{
+	display: inline-block;
+	list-style: none;
+	height: 25px;
+	margin-left: 10px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+footer ul li a:hover{
+	color: cornflowerblue;
+}
+
+.fechas{
+     display: flex;
+}
+
+.imagenesfechas{
+    border-radius: 5px;
+    width: 100px;
+}

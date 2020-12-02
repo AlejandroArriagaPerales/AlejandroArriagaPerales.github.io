@@ -1,0 +1,78 @@
+body{
+    width: 1500px;
+    margin: auto;
+    background-color: gray;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+th{
+    color: darkblue;
+    background-color: cyan;
+}
+
+h1{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.proweb{
+    background-color: chartreuse;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.forpro{
+    background-color: violet;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.lengu{
+    background-color: indianred;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ingl{
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.disin{
+    background-color: mediumpurple;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ingre{
+    background-color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.lider{
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.extra{
+    background-color: wheat;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hori{
+    border-radius: 20px;
+    background-color: floralwhite;
+    padding: 30px;
+}
+
